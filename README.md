@@ -1,3 +1,5 @@
+# Note : news api used in this is paid version so thats why it might not be able to view sometimes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
