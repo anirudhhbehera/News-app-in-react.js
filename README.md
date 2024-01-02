@@ -1,4 +1,4 @@
-# Note : newsa.org used in this is paid for online deployment so that is why it might not be viewed, but i have changed my api key and used https://gnews.io/api but a draw back is that it just responds with 10 news articles
+# Note : newsapi.org used in this is paid for online deployment so that is why it might not be viewed, but i have changed my api key and used https://gnews.io/api but a draw back is that it just responds with 10 news articles
 
 # Getting Started with Create React App
 
