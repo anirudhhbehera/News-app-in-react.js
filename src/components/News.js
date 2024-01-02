@@ -302,7 +302,9 @@ export default class News extends Component {
     };
   }
   async componentDidMount(){
-    let url="https://newsapi.org/v2/top-headlines?country=in&apiKey=e44623369cb540e2a72ebde0fab0b1ca&page=1&pageSize=3";
+    // let url="https://newsapi.org/v2/top-headlines?country=in&apiKey=e44623369cb540e2a72ebde0fab0b1ca&page=1&pageSize=3";
+    let url="https://gnews.io/api/v4/top-headlines?category=nation&lang=en&country=in&max=10&apikey=2e03d0e78cf1a27b830b17dd9c9d5af7";
+
     let data=await fetch(url);
     let parsedData= await data.json()
     this.setState({articles: parsedData.articles} )
@@ -341,7 +343,7 @@ handlePrevClick=async()=>{
                   
                   title={element.title?element.title.slice(0,50):""}
                   description={element.description?element.description.slice(0,100):""}
-                  imgurl={element.urlToImage}
+                  imgurl={element.image}
                   newsurl={element.url}
                 ></NewsItem>
               </div>
